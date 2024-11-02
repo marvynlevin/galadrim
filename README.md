@@ -1,148 +1,98 @@
-# Sujet de SAE 5 et 6
+# Équipe Team Chartreuse - Projet BUT Informatique Galadrim - 07/09/2023 19/10/2023
+![logo Chartreuse](./public/image/full_logo_empty.png)
 
-## Sujet
+## Informations Équipe
+- **Membres** :
+  - DULIEUX Baptiste (référent)
+  - LEVIN Marvyn
+  - CONTINO Corentin
+  - COMBE Simon
+  - COLIN Cédric
+- **Objectif** : Créer un site informatif détaillant l'histoire, les activités, et les engagements de l'entreprise Galadrim.
+- **Langages Utilisés** :
+  - HTML, CSS, JavaScript
+  - Intégration de Google Maps et modèles 3D
 
-[Accueil | Team Chartreuse (github.io)](https://cedriccolin.github.io/galadrim_chartreuse/)
+## Documents liés au projet
+- [Cahier des charges-pdf](./docs/cahierDesChargesTerm.pdf)
+- [Soutenance-pdf](./docs/projetHeaven.pdf) [Soutenance-pptx](./docs/projetHeaven.pptx)
+- [Logos Team Heaven](./docs/logos/)
 
-[Accueil | Team Chartreuse (gitlab.io)](https://galadrim-chartreuse-cedriccolin-533234ebad0ef47fce28e194b3b878b.gitlab.io/)
+## Cahier des Charges
 
-## Membres du groupe 
+### 1. Présentation du Projet
+- **But** : Créer un site web intuitif et informatif pour présenter l'entreprise Galadrim, son équipe, et ses engagements sociaux.
+- **Moyens** : Exploitation de différents styles visuels inspirés de sites comme ceux de Cyril Lignac et Galadrim pour allier professionnalisme et modernité.
+- **Objectifs du site** :
+  - **Présentation de l’entreprise** : Histoire et valeurs
+  - **Équipe et personnel** : Statistiques et organigrammes
+  - **Performances et réalisations** : Rapports économiques et projets
+  - **Engagement social** : Responsabilité sociétale de l'entreprise
 
-- [Baptiste DULIEUX **(référent du groupe)**](mailto:baptiste.dulieux@edu.univ-fcomte.fr?subject=sae_5_et_6)
-- [Marvyn LEVIN](mailto:marvyn.levin@edu.univ-fcomte.fr?subject=sae_5_et_6)
-- [Corentin CONTINO](mailto:corentin.contino@edu.univ-fcomte.fr?subject=sae_5_et_6)
-- [Simon COMBE](mailto:simon.combe@edu.univ-fcomte.fr?subject=sae_5_et_6)
-- [Cédric COLIN](mailto:cedric.colin@edu.univ-fcomte.fr?subject=sae_5_et_6)
+### 2. Types de Fichiers
+- **Illustrations** : Les illustrations sont réalisées par Freepik, source : [Freepik](https://fr.freepik.com/).
 
-# Presentation du projet
+### 3. Recherche Documentaire
+- **Ressources** :
+  - [Documentation HTML & CSS](https://developer.mozilla.org/fr/)
+  - [Validation W3C](https://validator.w3.org/)
+  - **Exemples de sites** : Cyril Lignac, Galadrim, site de kinésiologie d'Anne Sophie
 
-Notre projet est de créer un site informatif qui retranscrit tout d’abord Galadrim ; entreprise du
-numérique dans le développement de produits digitaux adaptés aux marchés. Dans celui-ci,
-nous aurons retranscrit l’histoire de Galadrim depuis sa création jusqu’à son évolution actuelle
-par le biais de la présentation de l’entreprise. Mais aussi l’équipe et le personnel à l’aide de
-statistiques et d’organigrammes. Et pour finir, nous aurons inscrit les rapports économiques et
-d’engagement de l’entreprise Galadrim.
-- La Team Chartreuse.
+### 4. Répartition du Travail
+- **Baptiste DULIEUX** :
+  - Page "Engagement social et responsabilité"
+- **Marvyn LEVIN** :
+  - Page d'accueil et vérifications de conformité W3C
+- **Corentin CONTINO** :
+  - Page présentation de l'entreprise et intégration Google Maps
+- **Cédric COLIN** :
+  - Page de l'équipe et du personnel, template de pages (Navbar/Footer)
+- **Simon COMBE** :
+  - Page performances et réalisations, contribution au rapport économique
 
-## Choix de conception
+## Concept Graphique
+### Inspirations et Design
+- **Esthétique épurée** inspirée du site de Cyril Lignac pour une image professionnelle et moderne
+![1](./docs/img/zoningPagePrincipale2.png)
 
-### Le site de Cyril Lignac
+- **Palette de couleurs unique** et éléments dynamiques tirés du style de Galadrim
+![2](./docs/img/styleTile1.png)
 
-Le site de Cyril Lignac se distingue par son utilisation efficace des nuances de blanc,
-créant une esthétique épurée et professionnelle. Cette approche visuelle peut être adaptée
-à notre site pour transmettre une image de clarté, de transparence et de professionnalisme.
+- **Pied de page structuré** et **bouton de retour en haut** pour faciliter la navigation
+![3](./docs/img/wireframe2burgerMenuOuvert.png)
 
-De plus, la structure du site est organisée de manière logique, avec une hiérarchie
-visuelle claire. Cela facilite la lecture et la navigation pour les visiteurs. En utilisant une
-structure similaire, nous pouvons garantir que les informations sur votre site seront
-présentées de manière ordonnée et facilement compréhensible.
+## Validation des Pages
+- **Page d'accueil** - Auteur : Marvyn LEVIN - [Validation W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2F)
+- **Présentation de l'entreprise** - Auteur : Corentin CONTINO - [Validation W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fpresentation_entreprise.html)
+- **Équipe et personnel** - Auteur : Cédric COLIN - [Validation W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fequipe_personnel.html)
+- **Performances et réalisations** - Auteur : Simon COMBE - [Validation W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fperformance_realisation.html)
+- **Engagement social** - Auteur : Baptiste DULIEUX - [Validation W3C](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fengagement_social_responsabilit%25C3%25A9.html)
 
-### Le site de Galadrim
-Le site Galadrim adopte un style numérique moderne, avec des éléments visuels tels
-que des graphiques dynamiques et des animations subtiles. Cela peut être une source
-d'inspiration pour donner à votre site une touche de modernité et de technologie, ce qui
-peut être pertinent pour une entreprise du numérique.
+## Instructions d'Exécution sur Windows
 
-Et le choix de couleurs utilisé sur le site créé une palette visuelle distinctive et assez
-complète. En adaptant une palette de couleurs unique pour votre site, nous pourrions
-renforcer l'identité visuelle de l'entreprise Galadrim.
+1. **Cloner le dépôt GitHub:**
+```shell
+git clone <https://github.com/marvynlevin/galadrim.git>
+```
 
-### Le site d'Anne Sophie kinésiologue
-Le site d'Anne Sophie, kinésiologue, présente un pied de page bien structuré avec
-des liens utiles vers d'autres pages du site, les coordonnées de contact, et des icônes de
-réseaux sociaux. Cette organisation permet aux visiteurs de trouver rapidement des
-informations importantes et de naviguer plus facilement sur le site. Nous pourrons intégrer
-un pied de page similaire pour améliorer la convivialité de votre site.
+Ou, si vous avez un fichier zip à télécharger
+```shell
+Invoke-WebRequest -Uri <URL_du_fichier> -OutFile ".\projet.zip"
+Expand-Archive -Path ".\projet.zip" -DestinationPath ".\MonProjet"
+```
+2. **Ouvrir la page HTML dans le navigateur par défaut:**
 
-De même pour le bouton "Retour en haut de page" qui facilite la navigation pour les
-visiteurs, en leur permettant de revenir rapidement en haut de la page sans faire défiler.
-Cela peut être une petite amélioration qui rendra la navigation sur notre site plus fluide.
+````shell
+# Par défault
+Start-Process .\MonProjet\index.html
 
+# Pour Chrome
+Start-Process "chrome.exe" .\MonProjet\index.html
 
-## Contributeurs
+# Pour Firefox
+Start-Process "firefox.exe" .\MonProjet\index.html
 
-![Graphique des contributions](screenshots/engagement_graph_global.png)
-![Graphique individuel des contributions](screenshots/contributeurs.png)
+# Pour Edge
+Start-Process "msedge.exe" .\MonProjet\index.html
+```
 
-
-## Développement Site Web et Validation des pages
-
-### Page d'accueil
-
-**Auteur : Marvyn LEVIN**
-
-Vérificateur W3C : [Capture d'écran de la conformité de la page...](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2F)
-
-![home_w3c.png](screenshots/home_w3c.png)
-
-### Page "présentation de l'entreprise"
-
-**Auteur : Corentin CONTINO**
-
-Vérificateur W3C : [Capture d'écran de la conformité de la page...](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fpresentation_entreprise.html)
-
-![presentation_w3c.png](screenshots/presentation_w3c.png)
-
-### Page "équipe et personnel"
-
-**Auteur : Cédric COLIN**
-
-Vérificateur W3C : [Capture d'écran de la conformité de la page...](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fequipe_personnel.html)
-
-![equipe_w3c.png](screenshots/equipe_w3c.png)
-
-### Page "performances et réalisations"
-
-**Auteur : Simon COMBE**
-
-Vérificateur W3C : [Capture d'écran de la conformité de la page...](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fperformance_realisation.html)
-
-![perfs_reals_w3c.png](screenshots/perfs_reals_w3c.png)
-
-### Page "Engagement social et responsabilité"
-
-**Auteur : Baptiste DULIEUX**
-
-Vérificateur W3C : [Capture d'écran de la conformité de la page...](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fcedriccolin.github.io%2Fgaladrim_chartreuse%2Fengagement_social_responsabilit%25C3%25A9.html)
-
-![engagement_w3c.png](screenshots/engagement_w3c.png)
-
-## Répartition du travail
-
-### Planification - Diagramme de GANTT
-
-- Marvyn LEVIN
-
-
-### Recherches d'informations
-
-- Simon COMBE
-- Cédric COLIN
-
-### Rapport économique
-
-- Simon COMBE
-- Marvyn LEVIN
-- Baptiste DULIEUX
-
-### Développement site
-
-- Marvyn LEVIN
-    - Page d'accueil
-- Corentin CONTINO
-    - Page présentation de l'entreprise
-    - Intégration de la carte Google Map
-- Baptiste DULIEUX
-    - Page engagement social et responsabilité
-- Simon COMBE
-    - Page performances et réalisations
-- Cédric COLIN
-    - Page de l'équipe et du personnel
-    - "Template" de page (Navbar/Footer/bouton de retour en haut de page)
-    - Modèle 3D + implémentation sur le site
-
-<br><br>
-<img src="public/image/full_logo_empty.png" style="width: 200px; margin: 5px 15px;" alt="Team Chartreuse">
-
-SAE de semestre 1 ; compétences 5 et 6.<br>
-Département informatique.
