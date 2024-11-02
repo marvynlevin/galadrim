@@ -1,5 +1,5 @@
 # Équipe Team Chartreuse - Projet BUT Informatique Galadrim - 07/09/2023 19/10/2023
-![logo Chartreuse](./public/image/full_logo_empty.png)
+![logo Chartreuse](./docs/img/logoTeamChartreuse.png)
 
 ## Informations Équipe
 - **Membres** :
@@ -14,9 +14,13 @@
   - Intégration de Google Maps et modèles 3D
 
 ## Documents liés au projet
-- [Cahier des charges-pdf](./docs/cahierDesChargesTerm.pdf)
-- [Soutenance-pdf](./docs/projetHeaven.pdf) [Soutenance-pptx](./docs/projetHeaven.pptx)
-- [Logos Team Heaven](./docs/logos/)
+- [Recherche des besoins questionnaire 1-pdf](./docs/S1B1G8_LEVIN_Marvyn_COLIN_Cédric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_Questionnaire1rendu.pdf.1.pdf)
+- [Recherche des besoins questionnaire 2-pdf](./docs/S1B1G8_LEVIN_Marvyn_COLIN_Cédric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_Questionnaire1rendu.pdf.2.pdf)
+- [Rapport économique-pdf](./docs/S1B1G8_LEVIN_Marvyn_COLIN_Cédric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_RapportEconomique2.pdf)
+- [Planning Gantt-pdf](./docs/S1B1G8_LEVIN_Marvyn_COLIN_Cédric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_PlanningGantt.pdf)
+
+- [Soutenance-pdf](./docs/S1B1G8_LEVIN_Marvyn_COLIN_Cédric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_diaporamaSansSuperpositions2.pdf) [Soutenance-pptx](./docs/S1B1G8_LEVIN_Marvyn_COLIN_Cédric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_diaporama.pptx)
+- [Logos Team Chartreuse](./docs/img)
 
 ## Cahier des Charges
 
@@ -82,7 +86,7 @@ Expand-Archive -Path ".\projet.zip" -DestinationPath ".\MonProjet"
 ```
 2. **Ouvrir la page HTML dans le navigateur par défaut:**
 
-````shell
+```shell
 # Par défault
 Start-Process .\MonProjet\index.html
 
