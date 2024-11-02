@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="public/favicon.ico">
+    <link rel="stylesheet" href="assets/styles.css">
+
+    <title>Performance et réalisation | Team Chartreuse</title>
+
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="public/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="public/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/icon/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="public/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Performance et réalisation | Team Chartreuse">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:description" content="Les réalisations et performances de Galadrim.">
+</head>
+<body>
+
+<!-- la class 'burger_closed' et 'burger_opened' seront changés pour le CSS (ouverture/fermeture du menu) -->
+<nav class="burger_closed">
+    <div class="logo">
+        <a href="index.html">
+            <img src="public/image/logo_empty.png" alt="logo">
+        </a>
+    </div>
+    <div class="burger">
+        <!-- Quand le burger est fermé -->
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu_invisible" viewBox="0 0 137 108" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.61111 0C3.40765 0 0 3.45384 0 7.71429C0 11.9747 3.40765 15.4286 7.61111 15.4286H129.389C133.592 15.4286 137 11.9747 137 7.71429C137 3.45384 133.592 0 129.389 0H7.61111ZM30.4444 54C30.4444 49.7394 33.8521 46.2857 38.0556 46.2857H129.389C133.592 46.2857 137 49.7394 137 54C137 58.2606 133.592 61.7143 129.389 61.7143H38.0556C33.8521 61.7143 30.4444 58.2606 30.4444 54ZM76.1111 100.286C76.1111 96.0251 79.5186 92.5714 83.7222 92.5714H129.389C133.592 92.5714 137 96.0251 137 100.286C137 104.546 133.592 108 129.389 108H83.7222C79.5186 108 76.1111 104.546 76.1111 100.286Z" fill="currentColor"/>
+        </svg>
+        <!-- Quand le burger est ouvert -->
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu_visible" viewBox="0 0 27 28" fill="none">
+            <path d="M0.747151 1.71714C-0.24905 2.71209 -0.24905 4.32518 0.747151 5.32012L9.89247 14.4539L0.747151 23.5878C-0.24905 24.5827 -0.24905 26.1959 0.747151 27.1908C1.74333 28.1856 3.35848 28.1856 4.35465 27.1908L13.5 18.0568L22.6454 27.1908C23.6416 28.1856 25.2568 28.1856 26.2529 27.1908C27.249 26.1959 27.249 24.5827 26.2529 23.5878L17.1074 14.4539L26.2529 5.32015C27.249 4.32523 27.249 2.71211 26.2529 1.71719C25.2565 0.722242 23.6416 0.722242 22.6454 1.71719L13.5 10.8509L4.35465 1.71714C3.35848 0.722217 1.74333 0.722217 0.747151 1.71714Z" fill="currentColor"/>
+        </svg>
+    </div>
+    <!-- Contenu qui sera affiché quand la page est ouverte -->
+    <div class="opened_burger">
+        <div class="background"></div>
+        <div class="docker">
+            <div class="link">
+                <a href="presentation_entreprise.html">Presentation de l'entreprise</a>
+                <a href="equipe_personnel.html">Equipe et personnel</a>
+                <a href="performance_realisation.html">Performance et réalisation</a>
+                <a href="engagement_social_responsabilité.html">Engagement social et Responsabilité</a>
+                <a href="mentions_legales.html">Mentions légales</a>
+            </div>
+            <div class="waves">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect width="1920" height="1080" fill="currentColor"/><path d="M 0,1080 C 0,1080 0,270 0,270 C 81.41025641025641,243.44615384615386 162.82051282051282,216.89230769230772 286,240 C 409.1794871794872,263.1076923076923 574.1282051282052,335.8769230769231 682,357 C 789.8717948717948,378.1230769230769 840.6666666666667,347.59999999999997 942,305 C 1043.3333333333333,262.40000000000003 1195.2051282051282,207.72307692307695 1296,181 C 1396.7948717948718,154.27692307692305 1446.5128205128206,155.5076923076923 1542,175 C 1637.4871794871794,194.4923076923077 1778.7435897435898,232.24615384615385 1920,270 C 1920,270 1920,1080 1920,1080 Z" fill="#006838" opacity="0.15"/><path d="M 0,1080 C 0,1080 0,540 0,540 C 118.27435897435893,548.0846153846154 236.54871794871787,556.1692307692308 332,554 C 427.45128205128213,551.8307692307692 500.0794871794873,539.4076923076923 608,558 C 715.9205128205127,576.5923076923077 859.1333333333334,626.2 969,602 C 1078.8666666666666,577.8 1155.3871794871795,479.79230769230776 1263,451 C 1370.6128205128205,422.20769230769224 1509.3179487179486,462.63076923076926 1624,489 C 1738.6820512820514,515.3692307692307 1829.3410256410257,527.6846153846154 1920,540 C 1920,540 1920,1080 1920,1080 Z" fill="#006838" opacity="0.3"/><path d="M 0,1080 C 0,1080 0,810 0,810 C 108.49230769230766,818.7179487179487 216.98461538461532,827.4358974358975 310,808 C 403.0153846153847,788.5641025641025 480.55384615384617,740.974358974359 598,760 C 715.4461538461538,779.025641025641 872.8,864.6666666666666 981,863 C 1089.2,861.3333333333334 1148.2461538461537,772.3589743589744 1251,768 C 1353.7538461538463,763.6410256410256 1500.2153846153847,843.8974358974359 1619,865 C 1737.7846153846153,886.1025641025641 1828.8923076923077,848.051282051282 1920,810 C 1920,810 1920,1080 1920,1080 Z" fill="#006838" opacity="0.44999999999999996"/></svg>
+            </div>
+        </div>
+    </div>
+</nav>
+<main class="perf_rel">
+    <!-- Section 1: Accroche -->
+    <section class="home">
+        <img src="public/svg/perf_rel_home_illustration.svg" alt="DEF" class="images">
+        <div class="content">
+            <h1>Les leaders du marché leur font confiance.</h1>
+            <p>Que ce soit pour les grands groupes ou les startups innovantes, Galadrim a su se positionner comme acteur clé dans le développement d'applications web et mobile.</p>
+            <button onclick="window.location.href='#rapport'">Télécharger le rapport économique</button>
+        </div>
+    </section>
+
+    <!-- Section 2 : Nos réalisations -->
+    <section class="bloc">
+    <h2 id="realisations" class="title">Quelques-unes de leurs plus belles réalisations</h2>
+
+    <div class="container">
+        <div class="right image">
+            <img src="public/image/clarins_illustration.png" alt="Clarins" class="images">
+            <h6>Clarins</h6>
+        </div>
+        <div class="left text">
+            <h2>Une étroite collaboration avec Clarins</h2>
+            <p>Clarins, incontestable leader européen des cosmétiques, a collaboré avec Galadrim pour lancer sa nouvelle offre d'abonnements en 2019. Galadrim a créé une interface personnalisable pour Clarins, permettant aux administrateurs de modifier produits et contenus en fonction des thèmes.<br><br> Ils les soutiennent avec des campagnes de marketing digital, y compris des landing pages pour les promotions. Pour gérer les pics de trafic, notamment durant les fêtes, ils utilisent Elastic Beanstalk d'Amazon, assurant une adaptation efficace à la demande.</p>
+        </div>
+    </div>
+    <div class="container reversed">
+        <div class="left image">
+            <img src="public/image/bradery_illustration.png" alt="Bradery" class="images">
+            <h6>Bradery</h6>
+        </div>
+        <div class="right text">
+            <h2>Un partenariat avec The Bradery depuis 2021</h2>
+            <p>The Bradery, fondée en 2019, connaît une croissance rapide grâce à ses ventes privées en ligne, attirant l'attention majeure de Showroomprivé qui acquiert 51% de l'entreprise. Face à l'impératif d'une stratégie numérique solide, The Bradery s'associe à Galadrim dès 2021 pour optimiser son écosystème digital, y compris un tableau de bord permettant aux marques partenaires d'analyser les données de vente.</p>
+            <p>La refonte de leur application mobile, gérant les pics de trafic via AWS Elastic Beanstalk et intégrant un back-office personnalisé, a amélioré la performance et l'expérience utilisateur. Avec l'expertise de Galadrim, The Bradery renforce son infrastructure digitale, essentielle à son expansion continue.</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Section 3 : Des méthodes innovantes & Laissons parler les chiffres -->
+    <section class="bloc">
+    <h2 class="title">Informations sur l'entreprise</h2>
+    <div class="container">
+        <div class="right image">
+            <img src="public/svg/bulb.svg" alt="DEF" class="images">
+            <h6>Illustration symbolisant la créativité de Galadrim</h6>
+        </div>
+        <div class="left text">
+            <h2>Des méthodes innovantes...</h2>
+            <p>Galadrim est composée de plusieurs cellules décentralisées et autogérées, ce qui est possible grâce à l'utilisation de diverses méthodes agiles. Cela leur permet de ne rien standardiser et de mieux adapter les réalisations aux spécificités de chaque entreprise, donc de rendre un travail de meilleure qualité.</p>
+        </div>
+    </div>
+    
+    <div class="container reversed">
+        <div class="left image">
+            <img src="public/svg/graph.svg" alt="DEF" class="images">
+            <h6>Evolution du résultat net de Galadrim entre 2019 et 2022</h6>
+        </div>
+        <div class="right text">
+            <h2>Laissons parler les chiffres ...</h2>
+            <p>Le résultat net de Galadrim est passé de 256K€ à 1,27M€ entre 2019 et 2022. Cela témoigne de la satisfaction de ses clients.</p>
+        </div>
+    </div>
+
+    <h2 class="title" id="rapport">Téléchargement du rapport économique</h2>
+        <a href="public/rapports/S1B1G8_LEVIN_Marvyn_COLIN_Cedric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_RapportEconomique.docx" target="_blank" download="S1B1G8_LEVIN_Marvyn_COLIN_Cedric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_RapportEconomique.docx" class="file">
+            <img src="public/svg/file_attached.svg" alt="report">
+            <p>Télécharger le rapport économique (.docx)</p>
+        </a>
+        <a href="public/rapports/S1B1G8_LEVIN_Marvyn_COLIN_Cedric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_RapportEconomique.pdf" target="_blank" download="S1B1G8_LEVIN_Marvyn_COLIN_Cedric_DULIEUX_Baptiste_CONTINO_Corentin_COMBE_Simon_RapportEconomique.pdf" class="file">
+            <img src="public/svg/file_attached.svg" alt="report">
+            <p>Télécharger le rapport économique (.pdf)</p>
+        </a>
+    </section>
+
+    <!-- Section 4 : Ce qui fait notre force -->
+    <section class="text">
+        <h2 class="title">Ce qui fait leur force</h2>
+        <p>Galadrim se démarque dans le secteur technologique grâce à son engagement à nouer des relations durables avec ses clients, assurant le succès continu des projets par une adaptation constante basée sur les retours des utilisateurs. L'équipe, composée de professionnels polyvalents, propulse l'entreprise en avant, lui permettant de répondre efficacement aux exigences diversifiées des clients. </p>
+    </section>
+
+</main>
+<footer>
+
+    <div class="footer_section left">
+        <img src="public/image/logo_empty.png" alt="logo">
+        <div class="content">
+            <h3>Elève en charge de cette page</h3>
+            <p>Simon COMBE</p>
+        </div>
+    </div>
+    <div class="footer_section">
+        <div class="link">
+            <a href="presentation_entreprise.html">Presentation de l'entreprise</a>
+            <a href="equipe_personnel.html">Equipe et personnel</a>
+            <a href="performance_realisation.html">Performance et réalisation</a>
+            <a href="engagement_social_responsabilité.html">Engagement social et Responsabilité</a>
+            <a href="mentions_legales.html">Mentions légales</a>
+        </div>
+    </div>
+</footer>
+<div class="go_top">
+    <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+</div>
+<script src="assets/script.js"></script>
+</body>
+</html>

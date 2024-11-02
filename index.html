@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="assets/index.css">
+    <title>Accueil | Team Chartreuse</title>
+
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="public/icon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="public/icon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="public/icon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="public/icon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="public/icon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="public/icon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="public/icon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="public/icon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="public/icon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="public/icon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="public/icon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="public/icon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="public/icon/favicon-16x16.png">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="public/icon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- OpenGraph -->
+    <meta property="og:title" content="Accueil | Team Chartreuse">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:description" content="Découvrez l'entreprise Galadrim.">
+</head>
+<body>
+<!-- la class 'burger_closed' et 'burger_opened' seront changés pour le CSS (ouverture/fermeture du menu) -->
+<nav class="burger_closed">
+    <div class="logo">
+        <a href="index.html">
+            <img src="public/image/logo_empty.png" alt="logo">
+        </a>
+    </div>
+    <div class="burger">
+        <!-- Quand le burger est fermé -->
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu_invisible" viewBox="0 0 137 108" fill="none">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M7.61111 0C3.40765 0 0 3.45384 0 7.71429C0 11.9747 3.40765 15.4286 7.61111 15.4286H129.389C133.592 15.4286 137 11.9747 137 7.71429C137 3.45384 133.592 0 129.389 0H7.61111ZM30.4444 54C30.4444 49.7394 33.8521 46.2857 38.0556 46.2857H129.389C133.592 46.2857 137 49.7394 137 54C137 58.2606 133.592 61.7143 129.389 61.7143H38.0556C33.8521 61.7143 30.4444 58.2606 30.4444 54ZM76.1111 100.286C76.1111 96.0251 79.5186 92.5714 83.7222 92.5714H129.389C133.592 92.5714 137 96.0251 137 100.286C137 104.546 133.592 108 129.389 108H83.7222C79.5186 108 76.1111 104.546 76.1111 100.286Z" fill="currentColor"/>
+        </svg>
+        <!-- Quand le burger est ouvert -->
+        <svg xmlns="http://www.w3.org/2000/svg" id="menu_visible" viewBox="0 0 27 28" fill="none">
+            <path d="M0.747151 1.71714C-0.24905 2.71209 -0.24905 4.32518 0.747151 5.32012L9.89247 14.4539L0.747151 23.5878C-0.24905 24.5827 -0.24905 26.1959 0.747151 27.1908C1.74333 28.1856 3.35848 28.1856 4.35465 27.1908L13.5 18.0568L22.6454 27.1908C23.6416 28.1856 25.2568 28.1856 26.2529 27.1908C27.249 26.1959 27.249 24.5827 26.2529 23.5878L17.1074 14.4539L26.2529 5.32015C27.249 4.32523 27.249 2.71211 26.2529 1.71719C25.2565 0.722242 23.6416 0.722242 22.6454 1.71719L13.5 10.8509L4.35465 1.71714C3.35848 0.722217 1.74333 0.722217 0.747151 1.71714Z" fill="currentColor"/>
+        </svg>
+    </div>
+    <!-- Contenu qui sera affiché quand la page est ouverte -->
+    <div class="opened_burger">
+        <div class="background"></div>
+        <div class="docker">
+            <div class="link">
+                <a href="presentation_entreprise.html">Presentation de l'entreprise</a>
+                <a href="equipe_personnel.html">Equipe et personnel</a>
+                <a href="performance_realisation.html">Performance et réalisation</a>
+                <a href="engagement_social_responsabilité.html">Engagement social et Responsabilité</a>
+                <a href="mentions_legales.html">Mentions légales</a>
+            </div>
+            <div class="waves">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080"><rect width="1920" height="1080" fill="currentColor"/><path d="M 0,1080 C 0,1080 0,270 0,270 C 81.41025641025641,243.44615384615386 162.82051282051282,216.89230769230772 286,240 C 409.1794871794872,263.1076923076923 574.1282051282052,335.8769230769231 682,357 C 789.8717948717948,378.1230769230769 840.6666666666667,347.59999999999997 942,305 C 1043.3333333333333,262.40000000000003 1195.2051282051282,207.72307692307695 1296,181 C 1396.7948717948718,154.27692307692305 1446.5128205128206,155.5076923076923 1542,175 C 1637.4871794871794,194.4923076923077 1778.7435897435898,232.24615384615385 1920,270 C 1920,270 1920,1080 1920,1080 Z" fill="#006838" opacity="0.15"/><path d="M 0,1080 C 0,1080 0,540 0,540 C 118.27435897435893,548.0846153846154 236.54871794871787,556.1692307692308 332,554 C 427.45128205128213,551.8307692307692 500.0794871794873,539.4076923076923 608,558 C 715.9205128205127,576.5923076923077 859.1333333333334,626.2 969,602 C 1078.8666666666666,577.8 1155.3871794871795,479.79230769230776 1263,451 C 1370.6128205128205,422.20769230769224 1509.3179487179486,462.63076923076926 1624,489 C 1738.6820512820514,515.3692307692307 1829.3410256410257,527.6846153846154 1920,540 C 1920,540 1920,1080 1920,1080 Z" fill="#006838" opacity="0.3"/><path d="M 0,1080 C 0,1080 0,810 0,810 C 108.49230769230766,818.7179487179487 216.98461538461532,827.4358974358975 310,808 C 403.0153846153847,788.5641025641025 480.55384615384617,740.974358974359 598,760 C 715.4461538461538,779.025641025641 872.8,864.6666666666666 981,863 C 1089.2,861.3333333333334 1148.2461538461537,772.3589743589744 1251,768 C 1353.7538461538463,763.6410256410256 1500.2153846153847,843.8974358974359 1619,865 C 1737.7846153846153,886.1025641025641 1828.8923076923077,848.051282051282 1920,810 C 1920,810 1920,1080 1920,1080 Z" fill="#006838" opacity="0.44999999999999996"/></svg>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<main>
+    <!-- Premiers éléments visibles sur la page -->
+    <section class="home">
+        <!-- Le contenu à gauche -->
+        <div class="content">
+            <h1 class="big">Galadrim<span style="color:#FD2A5E; font-size: 2em;">.</span></h1>
+            <p class="big desc texte_slogan_galadrim">Galadrim est une entreprise du numérique dans le développement de produits digitaux adaptés aux marchés</p>
+        </div>
+        <!-- l'image à droite -->
+        <div id="blep" class="mesh"></div>
+    </section>
+
+    <section>
+
+        <div class="container">
+            <div class="right image">
+                <img src="public/image/home/histoire_galadrim.jpg" alt="Illustration représentative de l'histoire de Galadrim">
+                <h6>Illustration représentative de l'histoire de Galadrim</h6>
+            </div>
+            <div class="left text">
+                <h2>Présentation de l’entreprise</h2>
+                <p> Vous retrouverez ici l’histoire de Galadrim, depuis sa création jusqu’à son évolution actuelle. Vous aurez des informations sur leur mission, leurs valeurs fondamentales, leurs produits, leurs services rendus et les informations sur leurs bureaux.</p>
+                <a class="button" href="presentation_entreprise.html">Découvrir</a>
+            </div>
+        </div>
+        <div class="container reversed">
+            <div class="left image">
+                <img class="img_accueil" src="public/image/home/personnel_galadrim.jpg" alt="Illustration représentative du personnel de Galadrim">
+                <h6>Illustration représentative du personnel de Galadrim</h6>
+            </div>
+            <div class="right text">
+                <h2>L'équipe et le personnel</h2>
+                <p>Nous avons retranscrit ici l’organigramme de l’équipe de Galadrim et les statistiques sur le nombre d’employés. Ainsi que des détails sur l’expertise, les compétences, leur politique de recrutement et leurs formations.</p>
+                <a href="equipe_personnel.html" class="button">Découvrir</a>
+            </div>
+        </div>
+        <div class="container">
+            <div class="right image">
+                <img class="img_accueil" src="public/image/home/economie_galadrim.jpg" alt="Illustration représentative de l'économie de Galadrim">
+                <h6>Illustration représentative de l'économie de Galadrim</h6>
+            </div>
+            <div class="left text">
+                <h2>Les performances et les réalisations</h2>
+                <p>Ici, vous aurez des informations de Galadrim sur son chiffre d'affaires, sa croissance économique ainsi que ses réalisations. Vous retrouverez des données de marché, des témoignages de clients et leurs certifications.</p>
+                <a class="button" href="performance_realisation.html">Découvrir</a>
+            </div>
+        </div>
+        <div class="container reversed">
+            <div class="left image">
+                <img class="img_accueil" src="public/image/home/engagement_galadrim.jpg" alt="Illustration représentative de l'engagement de Galadrim">
+                <h6>Illustration représentative de l'engagement de Galadrim</h6>
+            </div>
+            <div class="right text">
+                <h2>L'engagement social et les responsabilités</h2>
+                <p>Ici, vous pourrez voir l’engagement de Galadrim envers la société et la planète par le biais de leurs initiatives et de leurs responsabilités sociale d’entreprise.</p>
+                <a class="button" href="engagement_social_responsabilité.html">Découvrir</a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="text">
+
+        <img class="center-img" src="public/svg/galadrim.svg" alt="Logo officiel de Galadrim">
+
+        <br><br>
+
+        <h1>
+            Galadrim : Votre Partenaire Technologique pour Donner Vie à Votre Projet Web, Mobile et Data
+        </h1>
+
+        <p class="justify-txt">
+            Chez Galadrim, ce sont des passionnés de challenges technologiques. Leur mission est simple : ils visent l'excellence pour l'ensemble de leurs clients. Pour atteindre cet objectif, ils adoptent une approche pragmatique et transparente tout au long du processus de développement, travaillant main dans la main avec vos équipes.
+            Ils ont acquis une solide réputation et niveau en travaillant sur des projets aux enjeux techniques et commerciaux de grande ampleur. Que vous soyez une start-up innovante ou un grand groupe, ils ont l'expertise nécessaire pour adapter leurs méthodes à vos besoins spécifiques et relever tous les défis qui se présentent.<br>
+            <br>
+            Leur siège social de Galadrim Française est situé au cœur de Paris, à l'adresse suivante : <br>
+            25 boulevard de Bonne Nouvelle 75002 Paris, France <br>
+            Téléphone : 09 54 23 43 72
+        </p>
+        <p class="justify-txt">
+            Ils ont également une présence dynamique à Nantes, à l'adresse : <br>
+            11 bis Quai Turenne 44000 Nantes, France <br>
+            Téléphone : 09 75 92 70 62
+        </p>
+        <br>
+        <p class="justify-txt">
+            Pour toute question ou demande d'information, vous pouvez les contacter par e-mail à l'adresse suivante : <a href="mailto:contact@galadrim.fr">contact@galadrim.fr</a>.
+        </p>
+    </section>
+
+</main>
+<footer>
+
+    <div class="footer_section left">
+        <img src="public/image/logo_empty.png" alt="logo">
+        <div class="content">
+            <h3>Elève en charge de cette page</h3>
+            <p>Marvyn LEVIN</p>
+        </div>
+    </div>
+    <div class="footer_section">
+        <div class="link">
+            <a href="presentation_entreprise.html">Presentation de l'entreprise</a>
+            <a href="equipe_personnel.html">Equipe et personnel</a>
+            <a href="performance_realisation.html">Performance et réalisation</a>
+            <a href="engagement_social_responsabilité.html">Engagement social et Responsabilité</a>
+            <a href="mentions_legales.html">Mentions légales</a>
+        </div>
+    </div>
+</footer>
+<div class="go_top">
+    <a href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+            <path d="M12 6V18M12 6L7 11M12 6L17 11" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </a>
+</div>
+<script type="importmap">
+    {
+      "imports": {
+        "three": "https://unpkg.com/three@0.151.3/build/three.module.js",
+        "three/addons/": "https://unpkg.com/three@0.151.3/examples/jsm/"
+      }
+    }
+</script>
+<script type="module" src="assets/gmp/script.js"></script>
+<script src="assets/script.js"></script>
+</body>
+</html>
+
+
